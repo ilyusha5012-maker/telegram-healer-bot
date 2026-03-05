@@ -2,7 +2,8 @@ const express = require("express");
 const TelegramBot = require("node-telegram-bot-api");
 
 const token = process.env.BOT_TOKEN;
-const url = process.env.RENDER_EXTERNAL_URL;
+
+const url = "https://telegram-healer-bot.onrender.com";
 
 const app = express();
 app.use(express.json());
