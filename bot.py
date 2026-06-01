@@ -16,7 +16,7 @@ user_data = {}
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
     await message.answer(
-        "Привет 🙌\n\n"
+        "Привет 🙌1\n\n"
         "Рад, что ты здесь.\n\n"
         "Этот бот создан для глубокой самодиагностики и внутренней работы.\n\n"
         "Но сначала нужно сделать маленький шаг.\n\n"
