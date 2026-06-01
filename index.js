@@ -20,7 +20,7 @@ app.post(`/bot${token}`, (req, res) => {
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    "Привет 🙌 Это твой healer-бот. Скоро здесь будет система диагностики."
+    "1Привет 🙌 Это твой healer-бот. Скоро здесь будет система диагностики."
   );
 });
 
